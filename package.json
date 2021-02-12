@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "data store for environmont monitor",
   "type": "module",
+  "engines": {
+    "node": ">=13.2.0"
+  },
   "main": "lib/server.js",
   "scripts": {
     "nodemon": "nodemon -r dotenv/config",
