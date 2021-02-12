@@ -1,0 +1,19 @@
+[Unit]
+Description=Environment Data
+After=network.target
+
+[Service]
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/envdata
+EnvironmentFile=/etc/envdata.env
+ExecStart=/usr/bin/node lib/server.js
+Restart=always
+RestartSec=500ms
+StartLimitInterval=0
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=envdata
+
+[Install]
+WantedBy=multi-user.target

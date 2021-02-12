@@ -1,0 +1,36 @@
+{
+  "name": "envdata",
+  "version": "1.0.0",
+  "description": "data store for environmont monitor",
+  "type": "module",
+  "main": "lib/server.js",
+  "scripts": {
+    "nodemon": "nodemon -r dotenv/config",
+    "start": "node -r dotenv/config lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robireton/envdata.git"
+  },
+  "keywords": [
+    "cors",
+    "sqlite",
+    "express"
+  ],
+  "author": "Rob Ireton <rob@ireton.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robireton/envdata/issues"
+  },
+  "homepage": "https://github.com/robireton/envdata#readme",
+  "dependencies": {
+    "@robireton/chrono": "^1.0.0",
+    "@robireton/environment": "^2.1.0",
+    "better-sqlite3": "^7.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs-extra": "^9.1.0"
+  }
+}
