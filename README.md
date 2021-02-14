@@ -1,4 +1,4 @@
-# envdata · [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# Environment Data · [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 HTTP API server with SQLite data storage for environmental data
 
