@@ -1,10 +1,10 @@
 {
   "name": "envdata",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "data store for environmont monitor",
   "type": "module",
   "engines": {
-    "node": ">=13.2.0"
+    "node": ">=14.14.0"
   },
   "main": "lib/server.js",
   "scripts": {
@@ -29,11 +29,13 @@
   "homepage": "https://github.com/robireton/envdata#readme",
   "dependencies": {
     "@robireton/chrono": "^1.0.1",
-    "@robireton/environment": "^2.3.0",
-    "better-sqlite3": "^7.5.0",
+    "@robireton/environment": "^3.0.0",
+    "better-sqlite3": "^8.0.1",
     "cors": "^2.8.5",
-    "dotenv": "latest",
-    "express": "^4.17.3",
-    "fs-extra": "^10.0.0"
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "latest"
   }
 }
